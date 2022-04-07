@@ -83,6 +83,6 @@ test('uses a potion from inventory', () => {
     const oldCount = player.inventory.length;
 
     player.usePotion(1);
-    
+
     expect(player.inventory.length).toBeLessThan(oldCount);
 });
